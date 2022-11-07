@@ -256,6 +256,11 @@
       font-size: 1.8rem;
       padding: 1.25rem 2rem;
     }
+
+    @media only screen and (max-width: $bp-smallest) {
+      font-size: 1.4rem;
+      padding: 0.5rem 1.5rem;
+    }
   }
 
   &__stars {
@@ -269,6 +274,11 @@
     width: 1.75rem;
     height: 1.75rem;
     fill: var(--color-primary);
+
+    @media only screen and (max-width: $bp-smallest) {
+      width: 1.3rem;
+      height: 1.3rem;
+    }
   }
 
   &__location {
@@ -296,6 +306,10 @@
     @media only screen and (max-width: $bp-small) {
       padding: 0 1.5rem;
     }
+
+    @media only screen and (max-width: $bp-smallest) {
+      padding: 0 1rem;
+    }
   }
 
   &__rating-average {
@@ -305,6 +319,10 @@
 
     @media only screen and (max-width: $bp-small) {
       font-size: 1.8rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+      font-size: 1.5rem;
     }
   }
 
@@ -535,6 +553,10 @@
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 2.5rem;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1.4rem;
+    }
   }
 }
 

@@ -67,6 +67,10 @@
   @media only screen and (max-width: $bp-small) {
     flex-direction: column;
   }
+
+  @media only screen and (max-width: $bp-smallest) {
+    padding: 2rem;
+  }
 }
 
 .description {
